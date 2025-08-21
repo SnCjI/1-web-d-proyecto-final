@@ -278,9 +278,6 @@ Una funcionalidad se considera terminada cuando:
 4. Hacer commit con mensaje descriptivo
 5. Crear Pull Request con descripción detallada
 
-### Equipo de Desarrollo
-- [Nombre del Líder del Proyecto]
-- [Nombres de los miembros del equipo]
 - [Sensei/Instructor]
 
 **¡Happy Coding!** 🚀🎬
