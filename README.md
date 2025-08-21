@@ -277,9 +277,3 @@ Una funcionalidad se considera terminada cuando:
 3. Implementar cambios siguiendo los estándares
 4. Hacer commit con mensaje descriptivo
 5. Crear Pull Request con descripción detallada
-
-- [Sensei/Instructor]
-
-**¡Happy Coding!** 🚀🎬
-
-*Último update: [Fecha actual]*
