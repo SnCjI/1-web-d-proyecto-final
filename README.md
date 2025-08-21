@@ -269,11 +269,3 @@ Una funcionalidad se considera terminada cuando:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Debugging
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/) - Debugging React
 
-## Contribuciones y Contacto
-
-### Cómo Contribuir
-1. Fork del repositorio
-2. Crear branch para tu feature
-3. Implementar cambios siguiendo los estándares
-4. Hacer commit con mensaje descriptivo
-5. Crear Pull Request con descripción detallada
