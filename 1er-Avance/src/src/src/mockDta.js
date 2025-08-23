@@ -1,0 +1,220 @@
+// src/data/mockData.js
+
+export const mockMovies = [
+  {
+    id: 1,
+    title: "Spider-Man: No Way Home",
+    poster: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+    rating: 8.2,
+    year: 2021,
+    runtime: 148,
+    genres: ["Acción", "Aventura", "Ciencia Ficción"],
+    overview: "Peter Parker busca ayuda del Doctor Strange para hacer que todos olviden que es Spider-Man, pero el hechizo sale mal y abre el multiverso.",
+    director: "Jon Watts",
+    cast: ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+    popularity: 98.5,
+    releaseDate: "2021-12-17"
+  },
+  {
+    id: 2,
+    title: "Dune",
+    poster: "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/s1FhiNHJHiym5fWTzz6FsaUBHJr.jpg",
+    rating: 8.0,
+    year: 2021,
+    runtime: 155,
+    genres: ["Ciencia Ficción", "Aventura", "Drama"],
+    overview: "Paul Atreides, un joven brillante y talentoso, debe viajar al planeta más peligroso del universo para asegurar el futuro de su familia y su pueblo.",
+    director: "Denis Villeneuve",
+    cast: ["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac"],
+    popularity: 95.2,
+    releaseDate: "2021-10-22"
+  },
+  {
+    id: 3,
+    title: "The Batman",
+    poster: "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/b0PlHGXBUZNzVSlpUgwpLINPh2O.jpg",
+    rating: 7.8,
+    year: 2022,
+    runtime: 176,
+    genres: ["Acción", "Crimen", "Drama"],
+    overview: "Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos.",
+    director: "Matt Reeves",
+    cast: ["Robert Pattinson", "Zoë Kravitz", "Paul Dano"],
+    popularity: 92.8,
+    releaseDate: "2022-03-04"
+  },
+  {
+    id: 4,
+    title: "Top Gun: Maverick",
+    poster: "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+    rating: 8.3,
+    year: 2022,
+    runtime: 131,
+    genres: ["Acción", "Drama"],
+    overview: "Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete 'Maverick' Mitchell está donde pertenece.",
+    director: "Joseph Kosinski",
+    cast: ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
+    popularity: 96.7,
+    releaseDate: "2022-05-27"
+  },
+  {
+    id: 5,
+    title: "Avatar: The Way of Water",
+    poster: "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/s16H6tpK2utvwDtzZ8Qy4qm5Emw.jpg",
+    rating: 7.6,
+    year: 2022,
+    runtime: 192,
+    genres: ["Ciencia Ficción", "Aventura", "Acción"],
+    overview: "Jake Sully vive con su nueva familia formada en el planeta de Pandora. Cuando una amenaza familiar regresa para terminar lo que se empezó anteriormente.",
+    director: "James Cameron",
+    cast: ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+    popularity: 94.1,
+    releaseDate: "2022-12-16"
+  },
+  {
+    id: 6,
+    title: "Black Panther: Wakanda Forever",
+    poster: "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
+    rating: 7.3,
+    year: 2022,
+    runtime: 161,
+    genres: ["Acción", "Aventura", "Drama"],
+    overview: "La reina Ramonda, Shuri, M'Baku, Okoye y las Dora Milaje luchan para proteger su nación de las potencias mundiales que intervienen tras la muerte del rey T'Challa.",
+    director: "Ryan Coogler",
+    cast: ["Letitia Wright", "Angela Bassett", "Tenoch Huerta"],
+    popularity: 89.3,
+    releaseDate: "2022-11-11"
+  }
+];
+
+export const mockTVShows = [
+  {
+    id: 7,
+    name: "Stranger Things",
+    poster: "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+    rating: 8.7,
+    year: 2016,
+    seasons: 4,
+    episodes: 42,
+    genres: ["Drama", "Fantasía", "Horror"],
+    overview: "Cuando un niño desaparece, su madre, el jefe de policía y sus amigos deben enfrentarse a fuerzas terroríficas para recuperarlo.",
+    creators: ["The Duffer Brothers"],
+    cast: ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour"],
+    popularity: 97.8,
+    firstAirDate: "2016-07-15",
+    status: "Finalizada"
+  },
+  {
+    id: 8,
+    name: "The Crown",
+    poster: "https://image.tmdb.org/t/p/w500/4jpTR5V5OK45K2ONqo8y6iXg5Rw.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
+    rating: 8.6,
+    year: 2016,
+    seasons: 6,
+    episodes: 60,
+    genres: ["Drama", "Historia"],
+    overview: "Sigue la vida política y privada de la Reina Isabel II desde los años 1940 hasta los tiempos modernos.",
+    creators: ["Peter Morgan"],
+    cast: ["Imelda Staunton", "Jonathan Pryce", "Lesley Manville"],
+    popularity: 91.2,
+    firstAirDate: "2016-11-04",
+    status: "Finalizada"
+  },
+  {
+    id: 9,
+    name: "Wednesday",
+    poster: "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+    rating: 8.1,
+    year: 2022,
+    seasons: 1,
+    episodes: 8,
+    genres: ["Comedia", "Crimen", "Fantasía"],
+    overview: "Sigue a Wednesday Addams, estudiante psíquica en la Academia Nevermore, mientras intenta dominar su habilidad psíquica emergente.",
+    creators: ["Alfred Gough", "Miles Millar"],
+    cast: ["Jenna Ortega", "Catherine Zeta-Jones", "Luis Guzmán"],
+    popularity: 98.9,
+    firstAirDate: "2022-11-23",
+    status: "Renovada"
+  },
+  {
+    id: 10,
+    name: "The Witcher",
+    poster: "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/wmU0DDo3JqHGLuBQyohNmzWsUiQ.jpg",
+    rating: 8.2,
+    year: 2019,
+    seasons: 3,
+    episodes: 24,
+    genres: ["Acción", "Aventura", "Drama"],
+    overview: "Geralt de Rivia, un brujo cazador de monstruos, lucha por encontrar su lugar en un mundo donde las personas a menudo demuestran ser más malvadas que las bestias.",
+    creators: ["Lauren Schmidt Hissrich"],
+    cast: ["Henry Cavill", "Anya Chalotra", "Freya Allan"],
+    popularity: 94.5,
+    firstAirDate: "2019-12-20",
+    status: "En producción"
+  },
+  {
+    id: 11,
+    name: "House of the Dragon",
+    poster: "https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBstwruJ.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/etj8E2o0Bud0HkONVQPjyCkIvBv.jpg",
+    rating: 8.4,
+    year: 2022,
+    seasons: 2,
+    episodes: 18,
+    genres: ["Acción", "Aventura", "Drama"],
+    overview: "Una precuela de Game of Thrones ambientada 200 años antes de los eventos de la serie original.",
+    creators: ["Ryan J. Condal", "George R. R. Martin"],
+    cast: ["Paddy Considine", "Emma D'Arcy", "Matt Smith"],
+    popularity: 96.3,
+    firstAirDate: "2022-08-21",
+    status: "Renovada"
+  },
+  {
+    id: 12,
+    name: "The Bear",
+    poster: "https://image.tmdb.org/t/p/w500/sHFlbKS3WLqMnp9t2ghADIJjjQ.jpg",
+    backdrop: "https://image.tmdb.org/t/p/w1280/9XS2qVKt8oPdusS1TCQ3pP4Z1hb.jpg",
+    rating: 8.9,
+    year: 2022,
+    seasons: 2,
+    episodes: 18,
+    genres: ["Comedia", "Drama"],
+    overview: "Un chef de alta cocina regresa a Chicago para dirigir la tienda de sándwiches de su difunto hermano.",
+    creators: ["Christopher Storer"],
+    cast: ["Jeremy Allen White", "Ebon Moss-Bachrach", "Ayo Edebiri"],
+    popularity: 87.6,
+    firstAirDate: "2022-06-23",
+    status: "Renovada"
+  }
+];
+
+// Géneros disponibles
+export const availableGenres = [
+  'Acción',
+  'Aventura',
+  'Comedia',
+  'Crimen',
+  'Drama',
+  'Fantasía',
+  'Historia',
+  'Horror',
+  'Ciencia Ficción'
+];
+
+// Opciones de ordenamiento
+export const sortOptions = [
+  { value: 'popularity', label: 'Popularidad' },
+  { value: 'rating', label: 'Calificación' },
+  { value: 'date', label: 'Fecha de estreno' },
+  { value: 'title', label: 'Título' }
+];
