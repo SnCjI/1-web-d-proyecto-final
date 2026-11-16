@@ -1,0 +1,35 @@
+# ===== CREDENCIALES: NUNCA SUBIR A GITHUB =====
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos de credenciales
+secrets.h
+!secrets.h.example
+secrets.json
+credentials.json
+service-account*.json
+
+# Llaves privadas y certificados
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*_rsa
+*.ppk
+
+# ===== Node / Vite =====
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-error.log*
+
+# ===== Sistema y editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
